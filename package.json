@@ -1,0 +1,30 @@
+{
+  "name": "uitesting",
+  "version": "1.0.0",
+  "description": "UI testing",
+  "main": "steps_file.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "codeceptjs": "^1.1.7"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^6.13.0",
+    "webdriverio": "^4.12.0"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/selenium-standalone/bin/selenium-standalone install",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uve/uitesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uve/uitesting/issues"
+  },
+  "homepage": "https://github.com/uve/uitesting#readme"
+}
