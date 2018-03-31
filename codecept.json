@@ -1,20 +1,14 @@
 {
   "tests": "./tests/*_test.js",
-  "timeout": 10000,
+  "timeout": 2000,
   "output": "./output",
   "helpers": {
-    "WebDriverIO": {
+    "Puppeteer": {
       "url": "https://uve.github.io/PowerBI-visuals/",
-      "browser": "chrome",
-      "desiredCapabilities": {
-        "chromeOptions": {
-          "args": [
-            "--headless",
-            "--disable-gpu",
-            "--window-size=800,600"
-          ]
-        }
-      }
+      "show": false,
+      "waitForAction": 2000,
+      "waitForTimeout": 2000,
+      "windowSize": "800x600"
     }
   },
   "include": {
