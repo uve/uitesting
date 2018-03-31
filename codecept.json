@@ -1,14 +1,14 @@
 {
   "tests": "./tests/*_test.js",
-  "timeout": 2000,
+  "timeout": 1000,
   "output": "./output",
   "helpers": {
     "Puppeteer": {
       "url": "https://uve.github.io/PowerBI-visuals/",
       "show": false,
       "waitForAction": 2000,
-      "waitForTimeout": 2000,
-      "windowSize": "800x600"
+      "waitForTimeout": 1000,
+      "windowSize": "1024x768"
     }
   },
   "include": {

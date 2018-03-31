@@ -2,6 +2,9 @@
   "name": "uitesting",
   "version": "1.0.0",
   "description": "UI testing",
+  "scripts": {
+    "test": "node ./node_modules/codeceptjs/bin/codecept.js run --steps"
+  },
   "main": "steps_file.js",
   "directories": {
     "test": "tests"
@@ -11,9 +14,6 @@
     "puppeteer": "^1.2.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uve/uitesting.git"
